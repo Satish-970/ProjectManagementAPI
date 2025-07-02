@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-
+@Repositry
 public class ProductRepo {
     private List<Product> products = new ArrayList<>();
    private long currentId = 1;
