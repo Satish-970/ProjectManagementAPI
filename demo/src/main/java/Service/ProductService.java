@@ -5,7 +5,7 @@ import com.example.demo.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
-
+@Service
 public class ProductService {
     private final ProductRepo Rpro;
 
